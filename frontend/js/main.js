@@ -18,7 +18,7 @@ let stream; // Variabel untuk menyimpan stream kamera
 // URL endpoint API Flask Anda
 // Saat development, ini mungkin 'http://localhost:5000/predict'
 // Saat deployment, ini harus URL publik dari backend Anda (misalnya, 'https://your-backend-app.herokuapp.com/predict')
-const API_URL = 'https://pilah-ai.vercel.app'; // Ganti ini saat deployment!
+const API_URL = 'https://vercel.com/rafi-achmadfrs-projects/pilah-ai/26Le2G6vYrokEq1SwCGzQM22UUWC'; // Ganti ini saat deployment!
 
 // Fungsi untuk menampilkan pesan di modal kustom
 function showMessage(message) {
