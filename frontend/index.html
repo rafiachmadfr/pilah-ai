@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Klasifikasi Sampah</title>
+    <title>Klasifikasi Sampah (TF.js)</title>
     <!-- Memuat Tailwind CSS dari CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- Memuat Font Inter -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
     <!-- Link ke file CSS kustom Anda -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Memuat TensorFlow.js dari CDN -->
+    <!-- Ini adalah inti dari solusi "tanpa instalasi lokal" -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.20.0/dist/tf.min.js"></script>
 </head>
 <body class="bg-gradient-to-br from-green-300 to-blue-400 min-h-screen flex items-center justify-center p-4 font-inter">
 
     <div class="bg-white p-8 rounded-xl shadow-2xl w-full max-w-lg text-center transform transition-all duration-300 hover:scale-105">
-        <h1 class="text-4xl font-extrabold text-gray-800 mb-6">Klasifikasi Sampah</h1>
+        <h1 class="text-4xl font-extrabold text-gray-800 mb-6">Klasifikasi Sampah (TF.js)</h1>
 
         <!-- Area Video dan Canvas -->
         <div class="relative w-full aspect-video bg-gray-200 rounded-lg overflow-hidden mb-6 shadow-inner">
@@ -43,7 +47,7 @@
             <p id="confidenceText" class="text-lg text-gray-600">Kepercayaan: -</p>
             <div id="loadingIndicator" class="mt-4 hidden">
                 <div class="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-500 mx-auto"></div>
-                <p class="text-blue-500 mt-2">Mengklasifikasi...</p>
+                <p class="text-blue-500 mt-2">Memuat model & Mengklasifikasi...</p>
             </div>
         </div>
 
