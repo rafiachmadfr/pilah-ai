@@ -1,0 +1,219 @@
+[debug] [2025-07-04T11:22:17.727Z] ----------------------------------------------------------------------
+[debug] [2025-07-04T11:22:17.729Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-07-04T11:22:17.730Z] CLI Version:   14.9.0
+[debug] [2025-07-04T11:22:17.730Z] Platform:      win32
+[debug] [2025-07-04T11:22:17.730Z] Node Version:  v22.17.0
+[debug] [2025-07-04T11:22:17.730Z] Time:          Fri Jul 04 2025 18:22:17 GMT+0700 (Indochina Time)
+[debug] [2025-07-04T11:22:17.731Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-04T11:22:17.736Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T11:22:17.736Z] > authorizing via signed-in user (achmadfr123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\OneDrive\IBM Code Generations and Optimization\pilah-ai
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-04T11:24:50.275Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:24:50.275Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:24:50.276Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-07-04T11:24:51.374Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-04T11:24:51.374Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mulai-memilah (pilah-ai) 
+[info] 
+=== Functions Setup
+[debug] [2025-07-04T11:24:58.951Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T11:24:58.952Z] > authorizing via signed-in user (achmadfr123@gmail.com)
+[debug] [2025-07-04T11:24:58.952Z] [iam] checking project mulai-memilah for permissions ["firebase.projects.get"]
+[debug] [2025-07-04T11:24:58.952Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:24:58.952Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:24:58.952Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions [none]
+[debug] [2025-07-04T11:24:58.952Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions x-goog-quota-user=projects/mulai-memilah
+[debug] [2025-07-04T11:24:58.952Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-07-04T11:24:59.768Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions 200
+[debug] [2025-07-04T11:24:59.768Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-07-04T11:24:59.769Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:24:59.769Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:24:59.770Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:24:59.770Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:24:59.770Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-07-04T11:24:59.770Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/mulai-memilah
+[debug] [2025-07-04T11:24:59.771Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-07-04T11:24:59.771Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/mulai-memilah
+[debug] [2025-07-04T11:25:01.279Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/runtimeconfig.googleapis.com 200
+[debug] [2025-07-04T11:25:01.279Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2025-07-04T11:25:01.292Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/cloudfunctions.googleapis.com 200
+[debug] [2025-07-04T11:25:01.293Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-07-04T11:25:01.293Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:25:01.293Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:25:01.293Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2025-07-04T11:25:01.293Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/cloudfunctions.googleapis.com:enable x-goog-quota-user=projects/mulai-memilah
+[debug] [2025-07-04T11:25:01.817Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2025-07-04T11:25:01.817Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/mulai-memilah/services/cloudfunctions.googleapis.com:enable [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/requirements.txt 
+[info] +  Wrote functions/.gitignore 
+[info] +  Wrote functions/main.py 
+[debug] [2025-07-04T11:25:37.741Z] Running command with virtualenv: command="D:\OneDrive\IBM Code Generations and Optimization\pilah-ai\functions\venv\Scripts\activate.bat", args=["","&&","pip3","install","--upgrade","pip"]
+[debug] [2025-07-04T11:25:39.695Z] Error: spawn "D:\OneDrive\IBM Code Generations and Optimization\pilah-ai\functions\venv\Scripts\activate.bat" ENOENT
+    at notFoundError (C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:6:26)
+    at verifyENOENT (C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:40:16)
+    at cp.emit (C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:27:25)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-07-04T11:50:39.987Z] ----------------------------------------------------------------------
+[debug] [2025-07-04T11:50:39.989Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-07-04T11:50:39.990Z] CLI Version:   14.9.0
+[debug] [2025-07-04T11:50:39.990Z] Platform:      win32
+[debug] [2025-07-04T11:50:39.990Z] Node Version:  v22.17.0
+[debug] [2025-07-04T11:50:39.991Z] Time:          Fri Jul 04 2025 18:50:39 GMT+0700 (Indochina Time)
+[debug] [2025-07-04T11:50:39.991Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-04T11:50:39.998Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T11:50:39.998Z] > authorizing via signed-in user (achmadfr123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\OneDrive\IBM Code Generations and Optimization\pilah-ai
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-04T11:51:05.812Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:51:05.812Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:51:05.813Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-07-04T11:51:07.088Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-04T11:51:07.088Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mulai-memilah (pilah-ai) 
+[info] 
+=== Functions Setup
+[debug] [2025-07-04T11:51:08.838Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T11:51:08.838Z] > authorizing via signed-in user (achmadfr123@gmail.com)
+[debug] [2025-07-04T11:51:08.838Z] [iam] checking project mulai-memilah for permissions ["firebase.projects.get"]
+[debug] [2025-07-04T11:51:08.839Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:51:08.839Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:51:08.839Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions [none]
+[debug] [2025-07-04T11:51:08.839Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions x-goog-quota-user=projects/mulai-memilah
+[debug] [2025-07-04T11:51:08.839Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-07-04T11:51:09.570Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions 200
+[debug] [2025-07-04T11:51:09.570Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] i  functions/requirements.txt is unchanged 
+[info] i  functions/.gitignore is unchanged 
+[info] i  functions/main.py is unchanged 
+[debug] [2025-07-04T11:51:51.325Z] Running command with virtualenv: command="D:\OneDrive\IBM Code Generations and Optimization\pilah-ai\functions\venv\Scripts\activate.bat", args=["","&&","pip3","install","--upgrade","pip"]
+[debug] [2025-07-04T11:51:53.515Z] Error: spawn "D:\OneDrive\IBM Code Generations and Optimization\pilah-ai\functions\venv\Scripts\activate.bat" ENOENT
+    at notFoundError (C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:6:26)
+    at verifyENOENT (C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:40:16)
+    at cp.emit (C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:27:25)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2025-07-04T11:52:09.996Z] ----------------------------------------------------------------------
+[debug] [2025-07-04T11:52:09.999Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-07-04T11:52:10.000Z] CLI Version:   14.9.0
+[debug] [2025-07-04T11:52:10.000Z] Platform:      win32
+[debug] [2025-07-04T11:52:10.000Z] Node Version:  v22.17.0
+[debug] [2025-07-04T11:52:10.000Z] Time:          Fri Jul 04 2025 18:52:10 GMT+0700 (Indochina Time)
+[debug] [2025-07-04T11:52:10.001Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-04T11:52:10.007Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T11:52:10.007Z] > authorizing via signed-in user (achmadfr123@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\OneDrive\IBM Code Generations and Optimization\pilah-ai
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-07-04T11:52:22.963Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:52:22.963Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:52:22.965Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-07-04T11:52:23.990Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-07-04T11:52:23.990Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project mulai-memilah (pilah-ai) 
+[info] 
+=== Functions Setup
+[debug] [2025-07-04T11:52:24.696Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-07-04T11:52:24.696Z] > authorizing via signed-in user (achmadfr123@gmail.com)
+[debug] [2025-07-04T11:52:24.696Z] [iam] checking project mulai-memilah for permissions ["firebase.projects.get"]
+[debug] [2025-07-04T11:52:24.697Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:52:24.697Z] Checked if tokens are valid: true, expires at: 1751631463395
+[debug] [2025-07-04T11:52:24.697Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions [none]
+[debug] [2025-07-04T11:52:24.697Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions x-goog-quota-user=projects/mulai-memilah
+[debug] [2025-07-04T11:52:24.697Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-07-04T11:52:26.434Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions 200
+[debug] [2025-07-04T11:52:26.435Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/mulai-memilah:testIamPermissions {"permissions":["firebase.projects.get"]}
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] i  functions/requirements.txt is unchanged 
+[info] i  functions/.gitignore is unchanged 
+[info] i  functions/main.py is unchanged 
+[debug] [2025-07-04T11:52:33.096Z] Running command with virtualenv: command="D:\OneDrive\IBM Code Generations and Optimization\pilah-ai\functions\venv\Scripts\activate.bat", args=["","&&","pip3","install","--upgrade","pip"]
+[debug] [2025-07-04T11:52:34.916Z] Error: spawn "D:\OneDrive\IBM Code Generations and Optimization\pilah-ai\functions\venv\Scripts\activate.bat" ENOENT
+    at notFoundError (C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:6:26)
+    at verifyENOENT (C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:40:16)
+    at cp.emit (C:\Users\RAFI\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:27:25)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[error] 
+[error] Error: An unexpected error has occurred.
