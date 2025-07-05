@@ -20,7 +20,7 @@ let model; // Variabel untuk menyimpan model TensorFlow.js
 // Setelah Anda mengkonversi model .h5 Anda, letakkan folder hasilnya di 'frontend/models/my_waste_classifier_tfjs/'
 // URL ini akan menjadi relatif terhadap file index.html
 
-const MODEL_URL = './models/tensorflow-js/model.json'; // PASTIKAN PATH INI BENAR!
+const MODEL_URL = './models/tensorflow-js/model.json' // PASTIKAN PATH INI BENAR!
 
 // Definisikan kelas-kelas output model Anda (HARUS SESUAI DENGAN MODEL ANDA)
 const CLASS_NAMES = ['Organik', 'Anorganik']; // Sesuaikan ini dengan kelas model Anda
@@ -63,8 +63,8 @@ async function loadTFJSModel() {
     predictionText.textContent = 'Memuat model...';
     loadingIndicator.classList.remove('hidden');
     try {
-        // tf.loadGraphModel digunakan untuk SavedModel atau Keras Model yang dikonversi
-        model = await tf.loadLayersModel(MODEL_URL);
+        // PERBAIKI INI: Gunakan tf.loadLayersModel() untuk model Keras yang dikonversi
+        model = await tf.loadLayersModel(MODEL_URL); // <--- UBAH INI
         console.log('Model TensorFlow.js berhasil dimuat!');
         predictionText.textContent = 'Model siap. Ambil gambar!';
     } catch (error) {
