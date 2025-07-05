@@ -64,7 +64,7 @@ async function loadTFJSModel() {
     loadingIndicator.classList.remove('hidden');
     try {
         // tf.loadGraphModel digunakan untuk SavedModel atau Keras Model yang dikonversi
-        model = await tf.loadGraphModel(MODEL_URL);
+        model = await tf.loadLayersModel(MODEL_URL);
         console.log('Model TensorFlow.js berhasil dimuat!');
         predictionText.textContent = 'Model siap. Ambil gambar!';
     } catch (error) {
