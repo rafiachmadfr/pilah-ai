@@ -1,9 +1,0 @@
-[build]
-  # Direktori yang akan di-deploy sebagai frontend statis
-  publish = "frontend"
-  # Direktori tempat fungsi serverless Anda berada
-  functions = "netlify/functions"
-
-# [functions]
-#   # Konfigurasi lebih lanjut untuk fungsi (opsional)
-#   # python_version = "3.9" # Anda bisa menentukan versi Python
