@@ -32,7 +32,7 @@ except Exception as e:
 
 # Definisikan kelas-kelas output model Anda
 # Sesuaikan dengan urutan output dari model Anda (misalnya, 0 untuk organik, 1 untuk anorganik)
-CLASS_NAMES = ['Organik', 'Anorganik'] # Sesuaikan ini dengan kelas model Anda
+CLASS_NAMES = ['Anorganik', 'Organik'] # Sesuaikan ini dengan kelas model Anda
 
 @app.route('/')
 def home():
