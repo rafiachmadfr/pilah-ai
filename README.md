@@ -5,22 +5,6 @@
 
 ![Pilah AI Prediction Page](assets/prediction-page-example.png "Tampilan Halaman Prediksi Pilah AI")
 
-## Daftar Isi
-
-1.  [Pendahuluan](#pendahuluan)
-2.  [Latar Belakang Masalah](#latar-belakang-masalah)
-3.  [Fitur Utama](#fitur-utama)
-4.  [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-5.  [Arsitektur Proyek](#arsitektur-proyek)
-6.  [Hasil dan Evaluasi Model ML](#hasil-dan-evaluasi-model-ml)
-7.  [Panduan Instalasi dan Penggunaan (Lokal)](#panduan-instalasi-dan-penggunaan-lokal)
-    * [Prasyarat](#prasyarat)
-    * [Struktur Folder](#struktur-folder)
-    * [Langkah-langkah Instalasi](#langkah-langkah-instalasi)
-    * [Menjalankan Aplikasi](#menjalankan-aplikasi)
-8.  [Kontribusi](#kontribusi)
-9.  [Lisensi](#lisensi)
-
 ## 1. Pendahuluan
 
 Pilah AI adalah aplikasi web inovatif yang memanfaatkan kecerdasan buatan (AI) *computer vision* untuk memudahkan klasifikasi sampah menjadi organik atau anorganik. Proyek ini dibangun sebagai solusi *end-to-end* yang kuat, mulai dari pra-pemrosesan data gambar, pelatihan model *deep learning* yang canggih, hingga antarmuka web yang responsif dan mudah digunakan.
