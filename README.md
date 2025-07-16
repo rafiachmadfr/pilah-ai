@@ -1,9 +1,9 @@
 # ✨ Pilah AI: Revolusi Pemilahan Sampah di Ujung Jari Anda ✨
 
 !
-![Pilah AI Landing Page](assets/landing-page.png "Tampilan Halaman Utama Pilah AI")
+![Pilah AI Landing Page](assets/landing-page-example.png "Tampilan Halaman Utama Pilah AI")
 
-![Pilah AI Prediction Page](assets/prediction-page.png "Tampilan Halaman Prediksi Pilah AI")
+![Pilah AI Prediction Page](assets/prediction-page-example.png "Tampilan Halaman Prediksi Pilah AI")
 
 ## Daftar Isi
 
