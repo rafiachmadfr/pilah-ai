@@ -108,8 +108,9 @@ Kami telah menguji "otak" AI kami dengan cermat, dan hasilnya sangat menjanjikan
 
 * **Peta Kebingungan (Confusion Matrix):**
     !
-    ![Confusion Matrix Model Pilah AI](assests/laporan1.png "Matriks Konfusi Model Klasifikasi Sampah")
-    Peta ini menunjukkan seberapa sering AI kami bingung antara Organik dan Anorganik. Semakin gelap kotak diagonal, semakin baik!
+    ![Confusion Matrix Model Pilah AI](assets/laporan1.png "Matriks Konfusi Model Klasifikasi Sampah")
+
+  Peta ini menunjukkan seberapa sering AI kami bingung antara Organik dan Anorganik. Semakin gelap kotak diagonal, semakin baik!
 
 Singkatnya, AI kami sangat andal dalam memilah sampah Anda!
 
