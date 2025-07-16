@@ -1,7 +1,9 @@
 # ✨ Pilah AI: Revolusi Pemilahan Sampah di Ujung Jari Anda ✨
 
 !
-*(Ganti dengan tangkapan layar (screenshot) nyata dari halaman utama aplikasi Anda)*
+![Pilah AI Landing Page](assets/landing-page.png "Tampilan Halaman Utama Pilah AI")
+
+![Pilah AI Prediction Page](assets/prediction-page.png "Tampilan Halaman Prediksi Pilah AI")
 
 ## Daftar Isi
 
@@ -106,7 +108,7 @@ Kami telah menguji "otak" AI kami dengan cermat, dan hasilnya sangat menjanjikan
 
 * **Peta Kebingungan (Confusion Matrix):**
     !
-    *(Ganti dengan tangkapan layar (screenshot) nyata dari confusion matrix Anda)*
+    ![Confusion Matrix Model Pilah AI](assests/laporan1.png "Matriks Konfusi Model Klasifikasi Sampah")
     Peta ini menunjukkan seberapa sering AI kami bingung antara Organik dan Anorganik. Semakin gelap kotak diagonal, semakin baik!
 
 Singkatnya, AI kami sangat andal dalam memilah sampah Anda!
